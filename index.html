@@ -88,7 +88,7 @@
         moveButton.style.top = horizontal + "px";
         document.body.style.backgroundColor = getRandomColor();
 
-        if (clickCount >= 10 && !blinkingInterval) {
+        if (clickCount >= 3 && !blinkingInterval) {
             blinkingInterval = setInterval(function() {
                 document.body.style.backgroundColor = getRandomColor();
             }, 100);
